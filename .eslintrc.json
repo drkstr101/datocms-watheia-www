@@ -8,9 +8,7 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react"
+    "prettier"
   ],
   "rules": {
     "@typescript-eslint/explicit-module-boundary-types": 0,
@@ -21,6 +19,11 @@
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/no-unsafe-assignment": 0,
     "@typescript-eslint/restrict-template-expressions": 0,
-    "@typescript-eslint/no-empty-function": 0
+    "@typescript-eslint/no-empty-function": 0,
+    "@typescript-eslint/no-unsafe-return": 1,
+    "@typescript-eslint/no-unsafe-call": 1,
+    "@typescript-eslint/no-unused-vars": 1,
+    "@typescript-eslint/require-await": 1,
+    "@typescript-eslint/no-floating-promises": 1
   }
 }

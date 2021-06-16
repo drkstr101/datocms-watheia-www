@@ -37,10 +37,6 @@ export default function Footer() {
   return (
     <footer className={cn(styles.footer)}>
       <div className={styles['footer-legal']}>
-        <div className={styles['footer-hostedby']}>
-          <HostedByVercel />
-          <div className={styles['footer-separator']} />
-        </div>
         <div className={styles['footer-copyright']}>
           Copyright © {`${new Date().getFullYear()} `} {COPYRIGHT_HOLDER || `${SITE_NAME}.`} All
           rights reserved.
@@ -54,17 +50,6 @@ export default function Footer() {
               rel="noopener noreferrer"
             >
               Source Code
-            </a>
-          </p>
-          <div className={styles['footer-separator']} />
-          <p className={styles['footer-paragraph']}>
-            <a
-              href={CODE_OF_CONDUCT}
-              className={styles['footer-link']}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code of Conduct
             </a>
           </p>
           {LEGAL_URL && (

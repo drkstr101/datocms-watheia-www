@@ -14,16 +14,15 @@
  * limitations under the License.
  */
 
-export const SITE_URL = 'https://demo.vercel.events';
+export const SITE_URL = 'https://waweb.watheia.app/';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'ACME';
-export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
-export const SITE_NAME = 'ACME Conf';
+export const TWITTER_USER_NAME = 'watheia';
+export const BRAND_NAME = 'Watheia';
+export const SITE_NAME_MULTILINE = ['Watheia', 'Labs'];
+export const SITE_NAME = 'Gatekeeper';
 export const META_DESCRIPTION =
   'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
-export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
+export const SITE_DESCRIPTION = 'by Watheia Labs';
 export const DATE = 'October 27, 2020';
 export const SHORT_DATE = 'Oct 27 - 9:00am PST';
 export const FULL_DATE = 'Oct 27th 9am Pacific Time (GMT-7)';
@@ -32,12 +31,12 @@ export const COOKIE = 'user-id';
 
 // Remove process.env.NEXT_PUBLIC_... below and replace them with
 // strings containing your own privacy policy URL and copyright holder name
-export const LEGAL_URL = process.env.NEXT_PUBLIC_PRIVACY_POLICY_URL;
-export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
+export const LEGAL_URL = "https://cdn.watheia.org/assets/terms-and-conditions.txt";
+export const COPYRIGHT_HOLDER = "Watheia Labs, LLC.";
 
-export const CODE_OF_CONDUCT =
-  'https://www.notion.so/vercel/Code-of-Conduct-Example-7ddd8d0e9c354bb597a0faed87310a78';
-export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
+export const GREETING = "Enjoy your stay."
+export const CODE_OF_CONDUCT = 'https://watheia.app/terms';
+export const REPO = 'https://github.com/drkstr101/gatekeeper-ui.git';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {

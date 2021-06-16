@@ -15,6 +15,7 @@
  */
 
 import { SSRProvider, OverlayProvider } from 'react-aria';
+import '@styles/typography.css';
 import '@styles/global.css';
 import '@styles/nprogress.css';
 import '@styles/chrome-bug.css';
